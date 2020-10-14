@@ -35,7 +35,7 @@ def roll(nroll):
         if (rng <= fiveR[pity5]):
             pull = name(5)
             print('\x1b[0;30;43m' + pull + '\x1b[0m')
-            plt.imshow(mpimg.imread(str(pull + '.jpg')))
+            plt.imshow(mpimg.imread(str(pull + '.png')))
             pity5 = 0
             fiveC += 1
         elif (rng <= fourR[pity4]):
