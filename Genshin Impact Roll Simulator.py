@@ -49,6 +49,7 @@ def roll(nroll):
             pity4 += 1
     print("//")
     print("you got " + str(fiveC) + " five stars and " + str(fourC) + " four stars.")
+    print("You spent " + str(nroll * 160) + " Prismogems.")
 def name(star):
     if (star == 5):
         if (np.random.randint(2) == 0):
